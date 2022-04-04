@@ -1,0 +1,130 @@
+
+.grid-container
+{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;    
+}
+
+#h
+{
+    grid-area: h;  
+    align-self: center; 
+    margin-left: 10px;             
+}
+#result
+{
+    align-self: center; 
+    margin-left: 10px; 
+}
+#one
+{
+    grid-area: one;                
+}
+#two
+{
+    grid-area: two;                
+}
+#three
+{
+    grid-area: three;                
+}
+#four
+{
+    grid-area: four;                
+}
+#five
+{
+    grid-area: five;                
+}
+#six
+{
+    grid-area: six;                
+}
+#seven
+{
+    grid-area: seven;                
+}
+#eight
+{
+    grid-area: eight;                
+}
+#nine
+{
+    grid-area: nine;                
+}
+#ten
+{
+    grid-area: ten;                
+}
+#zero
+{
+    grid-area: zero;                
+}
+#minus
+{
+    grid-area: minus;                
+}
+#plus
+{
+    grid-area: plus;                
+}
+#divide
+{
+    grid-area: divide;                
+}
+#multiply
+{
+    grid-area: multiply;                
+}
+#dot
+{
+    grid-area: dot;                
+}
+#equal
+{
+    grid-area: equal;                
+}
+#inputLabel
+{
+    grid-area: iL;
+    color: white;
+    margin-left: 100px;
+    margin-top:50px;
+}
+#resultLabel
+{
+    grid-area: rL;
+    color: white;
+    margin-top: 30px;
+}
+#result
+{
+    grid-area: r;
+}
+.grid-container {
+    display: inline-grid;
+   font-size: xx-large;
+    grid-template-areas: 
+    "h iL iL iL"
+    "one two three divide"
+    "four five six multiply"
+    "seven eight nine minus"
+    "dot zero equal plus"
+    "r rL rL rL"
+    ;
+    grid-template-columns: 
+    25% 25% 25% 25%;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
